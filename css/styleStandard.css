@@ -12,7 +12,7 @@ p{text-align: justify; font-size: 20px;}
 .separador{padding-top: -100px;}/*Con esto subimos el separador*/
 /*body{padding-top: 30px;} */
 .nav{
-    padding-top: 120px; /*Bajamos el nav*/ 
+    padding-top: 100px; /*Bajamos el nav*/ 
     width: 100%;   /*Anchura muy grande para rellenar*/ 
     background:#378a53; 
     position:fixed;  
