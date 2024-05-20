@@ -7,6 +7,8 @@
     .h3{text-align: justify; color: green; font-size: 25px; }
     p{text-align: justify; font-size: 15px;}
     .ColorBlanco{ color: #fff;}
+    .amarilloRojo{color: #f06c20;}
+    .center{text-align: center;}
 
     .nav__ul{display: none;}/*Para desaparecer el nav normal sin responsive*/
        

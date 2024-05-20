@@ -1,11 +1,13 @@
 /*estilos----------------------------------------------------------------------------*/
-*{font-family: 'Times New Roman', Times, serif, cursive; font-size: 20px; text-align: justify;}
+*{font-family:Verdana, Geneva, Tahoma, sans-serif cursive; font-size: 20px; text-align: justify;}
 .h1{text-align:center; color: #181010; font-size:80px; }
 .h2{text-align: justify; color: orange; font-size: 60px;}
 .h3{text-align: justify; color: green; font-size: 40px;}
 p{text-align: justify; font-size: 20px;}
 .ColorBlanco{ color: #fff;}
 .marginText{margin: 20px 40px;}
+.amarilloRojo{color: #f06c20;}
+.center{text-align: center;}
 
 .separador{padding-top: -100px;}/*Con esto subimos el separador*/
 /*body{padding-top: 30px;} */

@@ -13,23 +13,26 @@ body{
    padding: 20px;
 }
 .Header{
-   background-color: rgb(16, 28, 32);
+   background-color: rgb(184, 85, 3);
    flex-basis: 60px;    /*ver leccion 24 propiedad de los items*/
+   
 }
 .Main{ 
-   background-color: rgb(195, 195, 197);
+   
+   background: radial-gradient(circle, #f3f7face,#f0ede9);
    flex-basis: 300px;   /*ver leccion 24 propiedad de los items*/
    flex-grow: 2;        /*ver leccion 24 propiedad de los items*/
    flex-shrink: 0;      /*ver leccion 24 propiedad de los items*/
 }
 .Aside{
-   background-color: rgb(106, 119, 122);
+   background-color: rgb(19, 14, 12);
+   
    flex-basis: 200px;    /*ver leccion 24 propiedad de los items*/
    flex-grow: 2;         /*ver leccion 24 propiedad de los items*/
    flex-shrink: 0;       /*ver leccion 24 propiedad de los items*/
 }
 .Footer{
-   background-color: rgb(16, 28, 32);
+   background-color: rgb(184, 85, 3);
    flex-grow: 1;               /*ver leccion 24 propiedad de los items*/
 }
 
