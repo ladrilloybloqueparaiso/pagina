@@ -12,7 +12,7 @@ p{text-align: justify; font-size: 20px;}
 .separador{padding-top: -100px;}/*Con esto subimos el separador*/
 /*body{padding-top: 30px;} */
 .nav{
-    padding-top: 100px; /*Bajamos el nav*/ 
+    padding-top: 120px; /*Bajamos el nav*/ 
     width: 100%;   /*Anchura muy grande para rellenar*/ 
     background:#378a53; 
     position:fixed;  
@@ -27,6 +27,7 @@ p{text-align: justify; font-size: 20px;}
 
 .nav__li { display: inline-block; padding: 12px;} /*ponemos links en misma fila y separacion*/ 
 .nav__li a{color: #fff; text-decoration: none;} /*color blanco texto y sin decoracion*/ 
+.logo{margin-top: -30px;} /*color blanco texto y sin decoracion*/ 
 .nav__li:hover > a{color: #bbb;}/*cuando pase por texto cambia de color*/
 section{margin: 40px 60px;}
 article{margin: 40px 60px;}

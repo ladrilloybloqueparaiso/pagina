@@ -1,7 +1,6 @@
 
 body{
-   background: radial-gradient(circle, #10997b,#305326);
-  
+   background: radial-gradient(circle, #10997b,#305326);  
 }
 
 .form-img { /*Formulario de imagen*/
@@ -53,7 +52,6 @@ body{
 .Header{
    background-color: rgb(184, 85, 3);
    flex-basis: 60px;    /*ver leccion 24 propiedad de los items*/
-   
 }
 .Main{ 
    
@@ -87,7 +85,7 @@ body{
 
    .content{
       display: grid;
-      grid-template-rows: 180px 1fr 1fr 80px ;
+      grid-template-rows: 150px 1fr 1fr 80px ;
       grid-template-columns: repeat(3, 1fr);
       height: 250vh;
    }
