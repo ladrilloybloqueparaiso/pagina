@@ -2,7 +2,7 @@
 body{
    background: radial-gradient(circle, #10997b,#305326);  
 }
-
+/*Imagen de logo---------------------------------------------------------------*/
 .form-img { /*Formulario de imagen*/
     flex:1;
     display: flex;
@@ -23,6 +23,25 @@ body{
     width: 80%;  
 } 
 
+/*cajas para fotos de bloque-----------------------------------------------------*/
+   /*Display contenedores cajas con flex  para movile */
+
+   .flex-container{
+      display: flex;
+      background: #c46868ef;
+      height: 250px;
+      margin: 5px;
+      
+      
+   }
+   .flex-item{ 
+      background: #248;
+      padding: 10px;
+      margin: 3px;
+      min-width: 150px;
+      width: 300px;
+      height: 200px;	
+   }
 
 
 
@@ -30,6 +49,17 @@ body{
 
 
 
+
+
+
+
+/* esta con display inline block */
+
+.contenedor-main{
+   margin: 5px;
+   padding: 30px;
+   background-color: aqua;
+}
 
 
 
@@ -55,7 +85,7 @@ body{
 }
 .Main{ 
    
-   background: radial-gradient(circle, #f3f7face,#f0ede9);
+   background: radial-gradient(circle, #f3f7face,#666564);
    flex-basis: 300px;   /*ver leccion 24 propiedad de los items*/
    flex-grow: 2;        /*ver leccion 24 propiedad de los items*/
    flex-shrink: 0;      /*ver leccion 24 propiedad de los items*/
@@ -81,7 +111,7 @@ body{
 /*---------------------------------------------------------------------------------------------------------------*/
 /*Para PC*/
 
-@media screen and (min-width: 800px) {   /*Como va a verse la pagina con mas de 700px para paginas grandes*/
+@media screen and (min-width: 1000px) {   /*Como va a verse la pagina con mas de 700px para paginas grandes*/
 
    .content{
       display: grid;
@@ -106,6 +136,8 @@ body{
        grid-column : 1/3 span ; /*para que ocupe toda la columna*/
    }  
 
+   
+
 
    .form-img { /*Formulario de imagen*/
       flex:1;
@@ -127,7 +159,30 @@ body{
       width: 80%;  
    }            
 
+   /*Display contenedores cajas con flex  para pc */
 
+   .flex-container{
+      display: flex;
+      height: 250px;
+      width: none;
+      margin: 5px;      
+   }
+   .flex-item{ 
+      background: #248;
+      padding: 10px;
+      margin: 3px;
+      min-width: 150px;
+      width: 300px;
+      height: 200px;	
+   }
+
+   
+   .contenedor-main{
+      margin: 5px;
+      padding: 30px;
+      background-color: rgb(47, 156, 53);
+   }
+   
 
 
 }
