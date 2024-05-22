@@ -80,7 +80,7 @@ body{
 	height: 160px;
 }
 .flex-item{ 
-	background: #248;
+	background:  #fafafa10;
 	color: #fff;
 	padding: 10px;
 	margin: 10px;
@@ -89,7 +89,13 @@ body{
 	height: 150px;	
    flex-grow: 1;
 }
+.img-cajas{
+   
+   width: 150px;
+   height: 150px;
+   margin: auto;
 
+}
 /*--------------------------------------------------*/
 
 
