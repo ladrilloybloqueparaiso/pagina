@@ -39,6 +39,12 @@ body{
 
 
 
+
+.contenedor-main{
+   margin: 5px;
+   padding: 30px;
+}
+
 /*Imagen de logo---------------------------------------------------------------*/
 .form-img { /*Formulario de imagen*/
    flex:1;
@@ -63,25 +69,34 @@ body{
 /*cajas para fotos de bloque-----------------------------------------------------*/
   /*Display contenedores cajas con flex  para movile */
 
-  .flex-container{
-     display: flex;
-     background: #c46868ef;
-     height: 210px;
-     margin: 20px;   
-  }
-  .flex-item{ 
-     background: #248;
-     padding: 10px;
-     margin: 3px;
-     width: 200px;
-     min-width: 100px;
-     height: 200px;	
-  }
-  .contenedor-main{
-     margin: 5px;
-     padding: 30px;
-     background-color: rgb(87, 102, 88);
-  }
+
+
+
+
+
+/*Para las cajas---------------------------------*/
+.flex-container{
+	display: flex;
+	height: 160px;
+}
+.flex-item{ 
+	background: #248;
+	color: #fff;
+	padding: 10px;
+	margin: 10px;
+	min-width: 120px;
+  
+	height: 150px;	
+   flex-grow: 1;
+}
+
+/*--------------------------------------------------*/
+
+
+
+
+
+
 
 
 
@@ -155,19 +170,15 @@ body{
    .flex-item{ 
       background: #248;
       padding: 10px;
-      margin: 3px;
+      margin: 5px;
       min-width: 150px;
       width: 300px;
       height: 200px;	
    }
 
    
-   .contenedor-main{
-      margin: 5px;
-      padding: 30px;
-      background-color: rgb(47, 156, 53);
-   }
    
+
 
 
 }
