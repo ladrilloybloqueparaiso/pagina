@@ -2,71 +2,6 @@
 body{
    background: radial-gradient(circle, #10997b,#305326);  
 }
-/*Imagen de logo---------------------------------------------------------------*/
-.form-img { /*Formulario de imagen*/
-    flex:1;
-    display: flex;
-    padding: 10px;
-    min-width: 100px; 
-    max-width: 200px;
-    order: 2;
-} 
-.form-img div{padding: 20px;}
-.img-container div{
-   background: white; /*EL color del fondo del logo*/
-   border-radius: 50%;
-   text-align: center;
-   padding: 15px;
-}
-.img-container{  margin: auto;  }
-.form-img img{ /*imagen especifica*/
-    width: 80%;  
-} 
-
-/*cajas para fotos de bloque-----------------------------------------------------*/
-   /*Display contenedores cajas con flex  para movile */
-
-   .flex-container{
-      display: flex;
-      background: #c46868ef;
-      height: 250px;
-      margin: 5px;
-      
-      
-   }
-   .flex-item{ 
-      background: #248;
-      padding: 10px;
-      margin: 3px;
-      min-width: 150px;
-      width: 300px;
-      height: 200px;	
-   }
-
-
-
-
-
-
-
-
-
-
-
-/* esta con display inline block */
-
-.contenedor-main{
-   margin: 5px;
-   padding: 30px;
-   background-color: aqua;
-}
-
-
-
-
-
-
-
 
 
 
@@ -101,6 +36,57 @@ body{
    background-color: rgb(184, 85, 3);
    flex-grow: 1;               /*ver leccion 24 propiedad de los items*/
 }
+
+
+
+/*Imagen de logo---------------------------------------------------------------*/
+.form-img { /*Formulario de imagen*/
+   flex:1;
+   display: flex;
+   padding: 10px;
+   min-width: 100px; 
+   max-width: 200px;
+   order: 2;
+} 
+.form-img div{padding: 20px;}
+.img-container div{
+  background: white; /*EL color del fondo del logo*/
+  border-radius: 50%;
+  text-align: center;
+  padding: 15px;
+}
+.img-container{  margin: auto;  }
+.form-img img{ /*imagen especifica*/
+   width: 80%;  
+} 
+
+/*cajas para fotos de bloque-----------------------------------------------------*/
+  /*Display contenedores cajas con flex  para movile */
+
+  .flex-container{
+     display: flex;
+     background: #c46868ef;
+     height: 210px;
+     margin: 20px;   
+  }
+  .flex-item{ 
+     background: #248;
+     padding: 10px;
+     margin: 3px;
+     width: 200px;
+     min-width: 100px;
+     height: 200px;	
+  }
+  .contenedor-main{
+     margin: 5px;
+     padding: 30px;
+     background-color: rgb(87, 102, 88);
+  }
+
+
+
+
+
 
 
 
@@ -163,8 +149,7 @@ body{
 
    .flex-container{
       display: flex;
-      height: 250px;
-      width: none;
+      height: 210px;
       margin: 5px;      
    }
    .flex-item{ 
