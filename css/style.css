@@ -38,16 +38,7 @@ body{
 }
 
 
-.texto{
-   color: #fff;
-   background-color: #b85503;
-   flex-grow: 1;
-   font-family:Verdana, Geneva, Tahoma, sans-serif cursive;
-   /* top  right bottom left */
-   margin: 50px 0px 50px 0px;
-   padding: 5px 100px 50px 100px;
-   
-}
+
 
 
 
@@ -145,7 +136,7 @@ body{
    .Aside{ grid-row: 2/ 7;
    }
    .Footer{grid-row: 7/ 7; grid-column : 1/3 span ; /*para que ocupe toda la columna*/
-
+        
 
       .form-img { /*Formulario de imagen*/
          flex:1;
@@ -183,7 +174,18 @@ body{
          height: 200px;	
       }
 
-      
+      .texto{
+         font-size: 50px;
+         color: #fff;
+         background-color: #b85503;
+         flex-grow: 1;
+         font-family:Verdana, Geneva, Tahoma, sans-serif cursive;
+
+         /* top  right bottom left */
+         margin: 50px 0px 50px 0px;
+         padding: 5px 250px 50px 250px;
+         
+      }  
       
       .mapouter{text-align: center;}
       
@@ -203,30 +205,47 @@ body{
 
    @media screen and ( max-width: 1000px) AND ( min-width: 500px)  {   
            
+      .texto{
+         color: #fff;
+         background-color: #b85503;
+         flex-grow: 1;
+         font-family:Verdana, Geneva, Tahoma, sans-serif cursive;
+         /* top  right bottom left */
+         margin: 50px 0px 50px 0px;
+         padding: 5px 30px 50px 30px;  
+      }
 
-          
-          
       .mapouter{text-align: center;}
           
       #gmap_canvas{
             
-            width: 490px;
-            height:500px;
+            width: 600px;
+            height:300px;
             flex-grow: 1;
       }
+      
     
    }     
    
    @media screen and ( max-width: 500px) AND ( min-width: 280px)  {   
            
-
+      .texto{
+         color: #fff;
+         background-color: #b85503;
+         flex-grow: 1;
+         font-family:Verdana, Geneva, Tahoma, sans-serif cursive;
+         /* top  right bottom left */
+         margin: 50px 0px 50px 0px;
+         padding: 5px 10px 20px 10px;
+         
+      }
           
           
       .mapouter{text-align: center;}
           
       #gmap_canvas{
             
-            width: 300px;
+            width: 350px;
             height:300px;
             flex-grow: 1;
       }
