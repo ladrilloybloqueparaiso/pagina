@@ -71,37 +71,25 @@
  
 
       /*Imagenes de bloque --------------- */
-
       .contenedor-cajas{
-         padding-left: 150px;  
-         padding-right: 150px;
-         padding-bottom: 50px;
-         
+         padding-left: 100px;  
+         padding-right: 100px;
+         padding-bottom: 20px;       
       }
-      .flex-container{
-         
-         height: 210px;
-         margin: 3px;  
-         
-            
-      }
-    .flex-item{ 
-         background:  #fff;
+      .flex-item{  
          padding: 10px;
          margin: 5px;
          height: 200px;	
-         border: #b85503 solid;
-         
-    }
-            
-      
+         width: 100%;
+         text-align: center;
+         flex-grow: 1; 
+      }
       .flex-item img {
          width: 250px;
-         height: 130px;
+         height: 150px; 
+         border: #b85503 solid;
       }
-      
-         /*Fin imagenes de bloque*/
-     
+      /*Fin imagenes de bloque*/   
    } 
 
    

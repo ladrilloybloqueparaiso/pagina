@@ -12,8 +12,7 @@ body{
    height: 120vh;  /*con esto modificamos la altura del todo el grid en mobile*/
 }
 .Header, .Aside, .Footer {                   
-   padding: 20px;
-   
+   padding: 20px;  
 }
 .Header{
 
@@ -31,7 +30,6 @@ body{
    flex-basis: 60px;    /*ver leccion 24 propiedad de los items*/
 }
 .Main{ 
-   
    background: #fff;
    flex-basis: 300px;   /*ver leccion 24 propiedad de los items*/
    flex-grow: 2;        /*ver leccion 24 propiedad de los items*/
