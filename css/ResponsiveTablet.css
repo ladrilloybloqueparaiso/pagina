@@ -1,9 +1,37 @@
 
+
+
 @media screen and ( max-width: 1000px) AND ( min-width: 500px)  {  /*Tablet*/ 
+      
+       /* Texto--------------------------------------------------*/
+       
+      .Contenedor-texto{
+         font-size: 50px;
+         background-color: #b85503;
+         /* top  right bottom left */
+         margin: 100px 0px 50px 0px;
+         padding: 5px 30px 5px 30px; 
+         flex-grow: 1;
+      }
+
+      .texto{
+         margin: 20px;
+         color: #fff;
+         font-family:Verdana, Geneva, Tahoma, sans-serif cursive;
+         animation: movimientoTexto 4s  ;
+      }
+      /*animacion de texto*/
+      @keyframes movimientoTexto {
+         from {
+            transform: translateX(-400px);
+         }
+      }
+
+
 
       /* imagenes principales---------------------------------*/
       .slider{
-           height: 500px;  margin: 50px auto 0; overflow: hidden;  
+           height: 500px;  margin: 100px auto 0; overflow: hidden;  
        }
       .slider ul{
          display: flex;  padding: 0px;  animation: cambio 30s infinite alternate ease-in-out;
@@ -40,37 +68,40 @@
       /*Fin imagenes principales--------------------------------------------------*/
 
 
+ 
 
+      /*Imagenes de bloque --------------- */
 
-      
-         /* imagen principal---------------------------------*/
-      .flex-containerFoto{
-         display: flex;
-         height: 510px;
-          /* top  right bottom left */   
-         padding: 30px 0px 10px 0px; 
+      .contenedor-cajas{
+         padding-left: 150px;  
+         padding-right: 150px;
+         padding-bottom: 50px;
+         
       }
-
-      .imgFoto{
-         text-align: center;
-         height: 500px;
-         width: 1500px;
-         flex-grow: 1; 
-       }
-
-      /*--------------------------------------------------*/
-
-      .texto{
-         color: #fff;
-         background-color: #b85503;
-         flex-grow: 1;
-         font-family:Verdana, Geneva, Tahoma, sans-serif cursive;
-         /* top  right bottom left */
-         margin: 50px 0px 50px 0px;
-         padding: 5px 30px 5px 30px;  
+      .flex-container{
+         
+         height: 210px;
+         margin: 3px;  
+         
+            
       }
+    .flex-item{ 
+         background:  #fff;
+         padding: 10px;
+         margin: 5px;
+         height: 200px;	
+         border: #b85503 solid;
+         
+    }
+            
+      
+      .flex-item img {
+         width: 250px;
+         height: 130px;
+      }
+      
+         /*Fin imagenes de bloque*/
+     
+   } 
 
-      
-      
-    
-   }     
+   

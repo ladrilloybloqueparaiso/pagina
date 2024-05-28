@@ -2,6 +2,37 @@
 
 @media screen and (min-width: 1000px) {   /*PC/*
 
+      /*Parte texto-----------------------------------------------*/
+      .Contenedor-texto{
+         font-size: 50px;
+         background-color: #b85503;
+         /* top  right bottom left */
+         margin: 100px 0px 50px 0px;
+         padding: 5px 150px 5px 150px;
+         flex-grow: 1;
+         
+      }
+      .texto{ 
+         margin: 20px;
+         color: #fff;
+         font-family:Verdana, Geneva, Tahoma, sans-serif cursive;
+       
+         
+         animation: movimientoTexto 4s  ;
+      } 
+       
+      /*animacion de texto*/
+      @keyframes movimientoTexto {
+         from {
+            transform: translateX(-400px);
+         }
+      }
+
+      /*Fin texto-------------------------------------------------------*/
+
+
+
+
       /* imagenes principales---------------------------------*/
       .slider{
          width: 940px;  height: 500px;  margin: 50px auto 0; overflow: hidden;  
@@ -14,7 +45,8 @@
          width: 100%;  list-style: none;  /*Para quitar viñetas que trae por defecto la lista*/
       }
       .slider img{
-         width: 100%;  height: 100%;
+         width: 100%;  height: 100%; 
+         
       }
       @keyframes cambio {
          0%{margin-left: 0%;}
@@ -42,39 +74,38 @@
       /* Logo---------------------------------------------*/
       .form-img {  flex:1;display: flex;padding: 10px;min-width: 100px; max-width: 200px;order: 2;} 
       .img-container div{background: white; /*EL color del fondo del logo*/border-radius: 50%;text-align: center;padding: 15px;}
-      .img-container{  margin: auto;  }
-      .form-img img{ /*imagen especifica*/ width: 80%;  }            
+      .img-container{margin: auto;}
+      .form-img img{/*imagen especifica*/ width: 80%;}            
       /*fin Logo---------------------------------------*/
 
       /*Imagenes de bloque --------------- */
 
+      .contenedor-cajas{
+            padding-left: 150px;  
+            padding-right: 150px;
+            padding-bottom: 50px;
+            
+      }
       .flex-container{
          display: flex;
          height: 210px;
-         margin: 5px;      
+         margin: 3px;  
+           
       }
       .flex-item{ 
-         background:  #fafafa10;
+         background:  #fff;
          padding: 10px;
          margin: 5px;
-         min-width: 150px;
-         width: 300px;
          height: 200px;	
-      }
-      /*Fin imagenes de bloque*/
-      /*Parte texto-----------------------------------------------*/
-      .texto{
-         font-size: 50px;
-         color: #fff;
-         background-color: #b85503;
-         flex-grow: 1;
-         font-family:Verdana, Geneva, Tahoma, sans-serif cursive;
-
-         /* top  right bottom left */
-         margin: 50px 0px 50px 0px;
-         padding: 5px 250px 5px 250px;
+         border: #b85503 solid;
+         flex-grow: 1; 
          
-      }  
+      }
+      .flex-item img {
+         width: 250px;
+         height: 130px;
+      }
+   
+      /*Fin imagenes de bloque*/
       
-
    }  

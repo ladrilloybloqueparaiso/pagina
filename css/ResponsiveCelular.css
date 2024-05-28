@@ -1,9 +1,36 @@
-
-
  @media screen and ( max-width: 500px) AND ( min-width: 150px)  {    /*celular*/
+      
+      /*Parte texto-----------------------------------------------*/
+      .Contenedor-texto{
+         font-size: 50px;
+         background-color: #b85503;
+         /* top  right bottom left */
+         margin: 90px 0px 50px 0px;
+         padding: 5px 10px 20px 10px;
+         flex-grow: 1;
+      }
+      .texto{ 
+         margin: 20px;
+         color: #fff;
+         font-family:Verdana, Geneva, Tahoma, sans-serif cursive;
+         
+         animation: movimientoTexto 4s  ;
+      } 
+       
+      /*animacion de texto*/
+      @keyframes movimientoTexto {
+         from {
+            transform: translateX(-400px);
+         }
+      }
+
+
+      /*Fin texto-------------------------------------------------------*/
+
+   
       /* imagenes principales---------------------------------*/
       .slider{
-         height: 200px;  margin: 50px auto 0; overflow: hidden;  
+         height: 200px;  margin: 100px auto 0; overflow: hidden;  
       }
       .slider ul{
        display: flex;  padding: 0px;  animation: cambio 30s infinite alternate ease-in-out;
@@ -39,11 +66,6 @@
      } 
     /*Fin imagenes principales--------------------------------------------------*/
       
-      
-      
-      
-      
-      
       /* imagen principal---------------------------------*/
       .flex-containerFoto{
          display: flex;
@@ -57,15 +79,5 @@
          width: 1000px;
          flex-grow: 1; 
       }
-      .texto{
-         color: #fff;
-         background-color: #b85503;
-         flex-grow: 1;
-         font-family:Verdana, Geneva, Tahoma, sans-serif cursive;
-         /* top  right bottom left */
-         margin: 50px 0px 50px 0px;
-         padding: 5px 10px 20px 10px;
-         
-      }
-         
+       
    }  
