@@ -23,9 +23,6 @@ body{
    margin: -120px; /*con el margin subimos el nav*/ 
    margin-left: 0px;
    z-index: 10;
-        
-
-
    background-color: rgb(184, 85, 3);
    flex-basis: 60px;    /*ver leccion 24 propiedad de los items*/
 }
